@@ -1,0 +1,1 @@
+# misago-blurple-theme
