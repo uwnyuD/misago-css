@@ -11,7 +11,7 @@ Hey!
 
 # Other cool css for misago
 
-`status.css`: If available, it displays green for online and red for offline status in all languages.
+`status.css`: If available, it displays green for online and red for offline status in posts (all languages).
 
 `smooth.css`: You can set round or square avatars with this pre-written CSS.
 
