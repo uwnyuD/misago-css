@@ -377,14 +377,6 @@ a.threads-list-icon {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 
 }
-/*--STÁTUSZ--*/
-.user-status.user-online {
-  color: green !important;
-}
-
-.user-status.user-offline {
-  color: red !important;
-}
 
 /*--SZAVAZÁS--*/
 
