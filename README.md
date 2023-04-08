@@ -1,6 +1,6 @@
-# misago-theme and animations
+Hey! This is a simple blue theme for misago.
 
-Hey!
+Colors: https://projectblurple.com
 
 # Blurlple
 
@@ -15,6 +15,10 @@ Hey!
 
 `smooth.css`: You can set round or square avatars with this pre-written CSS.
 
-`animation.css`: When hovering over the profile picture, it rotates to the right, and returns to its original state when the mouse is removed.
-
 `branding.css`: It colors the footer and adds a blue heart to it.
+
+`animation.css`: When hovering over the profile picture, it rotates to the right, and returns to its original state when the mouse is removed, and new thread button rotate when hovering *(I do not recommend using it)*
+
+Install: copy and paste from here
+https://github.com/uwnyuD/misago-css
+/THEME
