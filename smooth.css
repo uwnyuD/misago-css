@@ -1,0 +1,18 @@
+/*--AVATÁR-CUBE-SMOOTH--*/
+
+ .user-avatar,
+ .user-avatar.hidden-xs.hidden-sm,
+ .poster-avatar {
+  border-radius: 10px !important;
+  object-fit: cover !important;
+}
+
+/*--AVATÁR-ROUND--
+
+ .user-avatar,
+ .user-avatar.hidden-xs.hidden-sm,
+ .poster-avatar {
+  border-radius: 50% !important;
+}
+
+--AVATÁR-ROUND--*/

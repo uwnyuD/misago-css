@@ -1,0 +1,8 @@
+/*--STATUS--*/
+.user-status.user-online {
+  color: green !important;
+}
+
+.user-status.user-offline {
+  color: red !important;
+}

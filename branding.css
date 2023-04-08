@@ -1,0 +1,52 @@
+.misago-footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.misago-footer:before {
+/*-EN-*/  content: "Life is too short not to enjoy the last glass of water on page decorated with a blue footer!";
+/*-HU-*/  /*content: "Az élet túl rövid ahhoz, hogy ne élvezzük az utolsó pohár vizet a kék lábléccel díszített oldalon!";*/
+  display: block;
+  text-align: center;
+  color: #5865F2;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+.misago-footer:before {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+.misago-footer {
+  text-align: center;
+  color: #7289DA;
+  padding: 20px 0;
+  overflow: visible;
+}
+
+.misago-footer:after {
+  content: "💙"; /* ikon karakter */
+  display: inline-block;
+  font-size: 1.3em;
+  margin-right: 550px;
+  transform: translateY(-25%);
+  animation: rocket 5s ease-in-out infinite;
+}
+
+@keyframes rocket {
+  0% {
+    transform: translateY(-25%) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-50%) rotate(10deg);
+  }
+  100% {
+    transform: translateY(-25%) rotate(0deg);
+  }
+}

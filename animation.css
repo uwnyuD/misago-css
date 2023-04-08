@@ -1,0 +1,49 @@
+/*--ICONS--*/
+.material-icon:hover {
+position: relative;
+top: -2px;
+}
+/* Első állapot */
+.btn.btn-primary.btn-outline.btn-block {
+  transition: transform 0.1s ease-in-out;
+}
+
+/* Második állapot (rákattintás után) */
+.btn.btn-primary.btn-outline.btn-block:active {
+  transform: rotate(-15deg);
+}
+
+/* Visszaállás */
+.btn.btn-primary.btn-outline.btn-block:not(:active) {
+  transition: transform 1s ease-in-out;
+  transform: none;
+}
+/*--AVATÁR--*/
+/* Első állapot */
+.user-avatar.hidden-xs.hidden-sm,
+.poster-avatar {
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Második állapot (ráhúzás után) */
+.user-avatar.hidden-xs.hidden-sm:hover,
+.poster-avatar:hover {
+  transform: rotate(5deg);
+}
+
+/* Visszaállás */
+.user-avatar.hidden-xs.hidden-sm:after,
+.poster-avatar:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease-in-out;
+}
+ .user-avatar:not(:hover):after,
+.user-avatar.hidden-xs.hidden-sm:not(:hover):after,
+.poster-avatar:not(:hover):after {
+  transform: none;
+}
